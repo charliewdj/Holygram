@@ -1,0 +1,193 @@
+Folder PATH listing for volume OS
+Volume serial number is 35BC-09F0
+C:.
+|   const.dart
+|   injection_container.dart
+|   main.dart
+|   on_generate_route.dart
+|   profile_widget.dart
+|   test.xls
+|   
+\---features
+    +---data
+    |   +---data_sources
+    |   |   \---remote_data_source
+    |   |           remote_data_source.dart
+    |   |           remote_data_source_impl.dart
+    |   |           
+    |   +---models
+    |   |   +---comment
+    |   |   |       comment_model.dart
+    |   |   |       
+    |   |   +---post
+    |   |   |       post_model.dart
+    |   |   |       
+    |   |   +---replay
+    |   |   |       replay_model.dart
+    |   |   |       
+    |   |   \---user
+    |   |           user_model.dart
+    |   |           
+    |   \---repository
+    |           firebase_repository_impl.dart
+    |           
+    +---domain
+    |   +---entities
+    |   |   |   app_entity.dart
+    |   |   |   
+    |   |   +---comment
+    |   |   |       comment_entity.dart
+    |   |   |       
+    |   |   +---posts
+    |   |   |       post_entity.dart
+    |   |   |       
+    |   |   +---replay
+    |   |   |       replay_entity.dart
+    |   |   |       
+    |   |   \---user
+    |   |           user_entity.dart
+    |   |           
+    |   +---repository
+    |   |       firebase_repository.dart
+    |   |       
+    |   \---usecases
+    |       \---firebase_usecases
+    |           +---comment
+    |           |       create_comment_usecase.dart
+    |           |       delete_comment_usecase.dart
+    |           |       like_comment_usecase.dart
+    |           |       read_comment_usecase.dart
+    |           |       update_comment_usecase.dart
+    |           |       
+    |           +---post
+    |           |       create_post_usecase.dart
+    |           |       delete_post_usecase.dart
+    |           |       like_post_usecase.dart
+    |           |       read_post_usecase.dart
+    |           |       read_single_post_usecase.dart
+    |           |       update_post_usecase.dart
+    |           |       
+    |           +---replay
+    |           |       create_replay_usecase.dart
+    |           |       delete_replay_usecase.dart
+    |           |       like_replay_usecase.dart
+    |           |       read_replays_usecase.dart
+    |           |       update_replay_usecase.dart
+    |           |       
+    |           +---storage
+    |           |       upload_image_to_storage_usecase.dart
+    |           |       
+    |           \---user
+    |                   create_user_usecase.dart
+    |                   follow_unfollow_user_usecase.dart
+    |                   get_current_uid_usecase.dart
+    |                   get_single_other_user_usecase.dart
+    |                   get_single_user_usecase.dart
+    |                   get_users_usecase.dart
+    |                   is_sign_in_usecase.dart
+    |                   sign_in_user_usecase.dart
+    |                   sign_out_usecase.dart
+    |                   sign_up_user_usecase.dart
+    |                   update_user_usecase.dart
+    |                   
+    \---presentation
+        +---cubit
+        |   +---auth
+        |   |       auth_cubit.dart
+        |   |       auth_state.dart
+        |   |       
+        |   +---comment
+        |   |       comment_cubit.dart
+        |   |       comment_state.dart
+        |   |       
+        |   +---credential
+        |   |       credential_cubit.dart
+        |   |       credential_state.dart
+        |   |       
+        |   +---post
+        |   |   |   post_cubit.dart
+        |   |   |   post_state.dart
+        |   |   |   
+        |   |   \---get_single_post
+        |   |           get_single_post_cubit.dart
+        |   |           get_single_post_state.dart
+        |   |           
+        |   +---replay
+        |   |       replay_cubit.dart
+        |   |       replay_state.dart
+        |   |       
+        |   \---user
+        |       |   user_cubit.dart
+        |       |   user_state.dart
+        |       |   
+        |       +---get_single_other_user
+        |       |       get_single_other_user_cubit.dart
+        |       |       get_single_other_user_state.dart
+        |       |       
+        |       \---get_single_user
+        |               get_single_user_cubit.dart
+        |               get_single_user_state.dart
+        |               
+        +---page
+        |   +---activity
+        |   |       activity_page.dart
+        |   |       
+        |   +---credential
+        |   |       sign_in_page.dart
+        |   |       sign_up_page.dart
+        |   |       
+        |   +---home
+        |   |   |   home_page.dart
+        |   |   |   
+        |   |   \---widgets
+        |   |           single_post_card_widget.dart
+        |   |           
+        |   +---main_screen
+        |   |       main_screen.dart
+        |   |       
+        |   +---post
+        |   |   |   post_detail_page.dart
+        |   |   |   update_post_page.dart
+        |   |   |   upload_post_page.dart
+        |   |   |   
+        |   |   +---comment
+        |   |   |   |   comment_page.dart
+        |   |   |   |   edit_comment_page.dart
+        |   |   |   |   edit_replay_page.dart
+        |   |   |   |   
+        |   |   |   \---widget
+        |   |   |           comment_main_widget.dart
+        |   |   |           edit_comment_main_widget.dart
+        |   |   |           edit_replay_main_widget.dart
+        |   |   |           single_comment_widget.dart
+        |   |   |           single_replay_widget.dart
+        |   |   |           
+        |   |   \---widget
+        |   |           like_animation_widget.dart
+        |   |           post_detail_main_widget.dart
+        |   |           update_post_main_widget.dart
+        |   |           upload_post_main_widget.dart
+        |   |           
+        |   +---profile
+        |   |   |   edit_profile_page.dart
+        |   |   |   followers_page.dart
+        |   |   |   following_page.dart
+        |   |   |   profile_page.dart
+        |   |   |   single_user_profile_page.dart
+        |   |   |   
+        |   |   \---widgets
+        |   |           profile_form_widget.dart
+        |   |           profile_main_widget.dart
+        |   |           single_user_profile_main_widget.dart
+        |   |           
+        |   \---search
+        |       |   search_page.dart
+        |       |   
+        |       \---widget
+        |               search_main_widget.dart
+        |               search_widget.dart
+        |               
+        \---widget
+                button_container_widget.dart
+                form_container_widget.dart
+                

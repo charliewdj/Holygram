@@ -1,4 +1,4 @@
-# instagram_clone
+#Holygram
 
 A new Flutter project.
 
